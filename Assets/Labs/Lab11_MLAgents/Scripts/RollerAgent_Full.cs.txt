@@ -1,0 +1,126 @@
+// ============================================================
+// RollerAgent 전체 구현 (ML-Agents 설치 후 사용)
+// ============================================================
+// 사용법:
+//   1. Window > Package Manager > + > Add package from git URL:
+//      https://github.com/Unity-Technologies/ml-agents.git?path=com.unity.ml-agents#release_21
+//   2. 이 파일의 내용 전체를 복사
+//   3. RollerAgent.cs 에 붙여넣기 (기존 내용 교체)
+// ============================================================
+
+using UnityEngine;
+using Unity.MLAgents;
+using Unity.MLAgents.Actuators;
+using Unity.MLAgents.Sensors;
+
+/// <summary>
+/// Lab11: ML-Agents 3.0 RollerAgent.
+/// 공이 목표 큐브에 닿으면 보상을 받고 에피소드를 종료합니다.
+/// Chapter 11 SphereAgent 기반, ML-Agents 3.0 API로 업데이트.
+///
+/// 관찰값(Observations): 8개
+///   - 에이전트 localPosition (3)
+///   - 목표 localPosition (3)
+///   - 에이전트 linearVelocity.x (1)
+///   - 에이전트 linearVelocity.z (1)
+/// </summary>
+public class RollerAgent : Agent
+{
+    // =========================================================================
+    // 인스펙터 필드
+    // =========================================================================
+
+    [Header("참조")]
+    [SerializeField] private Transform target;
+
+    [Header("물리 파라미터")]
+    [SerializeField] private float forceMultiplier = 10f;
+
+    [Header("스폰 범위")]
+    [SerializeField] private float spawnRange = 4f;
+
+    // =========================================================================
+    // 내부 참조
+    // =========================================================================
+
+    private Rigidbody _rb;
+
+    // =========================================================================
+    // Agent 오버라이드
+    // =========================================================================
+
+    public override void Initialize()
+    {
+        _rb = GetComponent<Rigidbody>();
+    }
+
+    public override void OnEpisodeBegin()
+    {
+        if (transform.localPosition.y < 0)
+        {
+            _rb.linearVelocity = Vector3.zero;
+            _rb.angularVelocity = Vector3.zero;
+        }
+
+        transform.localPosition = new Vector3(
+            Random.Range(-spawnRange, spawnRange),
+            0.5f,
+            Random.Range(-spawnRange, spawnRange)
+        );
+
+        Vector3 targetPos;
+        int attempts = 0;
+        do
+        {
+            targetPos = new Vector3(
+                Random.Range(-spawnRange, spawnRange),
+                0.5f,
+                Random.Range(-spawnRange, spawnRange)
+            );
+            attempts++;
+        } while (Vector3.Distance(transform.localPosition, targetPos) < 2f && attempts < 10);
+
+        target.localPosition = targetPos;
+    }
+
+    public override void CollectObservations(VectorSensor sensor)
+    {
+        sensor.AddObservation(transform.localPosition);
+        sensor.AddObservation(target.localPosition);
+        sensor.AddObservation(_rb.linearVelocity.x);
+        sensor.AddObservation(_rb.linearVelocity.z);
+    }
+
+    public override void OnActionReceived(ActionBuffers actionBuffers)
+    {
+        float moveX = actionBuffers.ContinuousActions[0];
+        float moveZ = actionBuffers.ContinuousActions[1];
+
+        Vector3 force = new Vector3(moveX, 0f, moveZ) * forceMultiplier;
+        _rb.AddForce(force);
+
+        float distToTarget = Vector3.Distance(transform.localPosition, target.localPosition);
+        if (distToTarget < 1.42f)
+        {
+            AddReward(1f);
+            Debug.Log("[RollerAgent] 목표 도달! +1.0 보상");
+            EndEpisode();
+        }
+
+        if (transform.localPosition.y < -1f)
+        {
+            AddReward(-1f);
+            Debug.Log("[RollerAgent] 낙하! -1.0 보상");
+            EndEpisode();
+        }
+
+        AddReward(-0.001f);
+    }
+
+    public override void Heuristic(in ActionBuffers actionsOut)
+    {
+        var continuousActions = actionsOut.ContinuousActions;
+        continuousActions[0] = Input.GetAxis("Horizontal");
+        continuousActions[1] = Input.GetAxis("Vertical");
+    }
+}
