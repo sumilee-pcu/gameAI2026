@@ -4,8 +4,9 @@ using UnityEngine;
 /// <summary>
 /// Lab06: A* 경로탐색 그리드.
 /// 씬의 월드 공간을 노드 격자로 표현합니다.
+/// (Unity 내장 Grid 컴포넌트와 이름 충돌 방지를 위해 AStarGrid로 명명)
 /// </summary>
-public class Grid : MonoBehaviour
+public class AStarGrid : MonoBehaviour
 {
     // =========================================================================
     // 인스펙터 필드

@@ -5,18 +5,18 @@ using UnityEngine;
 /// Lab06: A* 경로탐색 알고리즘.
 /// f(n) = g(n) + h(n) 기반으로 최단 경로를 탐색합니다.
 /// </summary>
-[RequireComponent(typeof(Grid))]
+[RequireComponent(typeof(AStarGrid))]
 public class Pathfinding : MonoBehaviour
 {
     // =========================================================================
     // 내부 참조
     // =========================================================================
 
-    private Grid _grid;
+    private AStarGrid _grid;
 
     private void Awake()
     {
-        _grid = GetComponent<Grid>();
+        _grid = GetComponent<AStarGrid>();
     }
 
     // =========================================================================
