@@ -2,7 +2,7 @@
 
 > **배재대학교** 게임공학과 · 2026-1학기
 > 담당교수: 이수미 (sumilee@pcu.ac.kr)
-> 엔진: **Unity 6 (6000.0.36f1 LTS)**
+> 엔진: **Unity 6.3 LTS (6000.3.10f1)**
 > 참고교재: *Unity Artificial Intelligence Programming, 5th Edition* (Davide Aversa, Packt)
 
 ---
