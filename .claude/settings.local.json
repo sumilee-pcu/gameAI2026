@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p _Archived)",
+      "Bash(mv Lab09_GOAP _Archived/)",
+      "Bash(mv Lab09_GOAP.meta _Archived/)",
+      "Bash(mv Lab10_QLearning _Archived/)",
+      "Bash(mv Lab10_QLearning.meta _Archived/)",
+      "Bash(mv Lab12_PerlinNoise _Archived/)",
+      "Bash(mv Lab12_PerlinNoise.meta _Archived/)",
+      "Bash(mv Lab13_CellularAutomata _Archived/)",
+      "Bash(mv Lab13_CellularAutomata.meta _Archived/)"
+    ]
+  }
+}
