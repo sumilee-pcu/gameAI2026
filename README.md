@@ -9,28 +9,27 @@
 
 ## 개요 (Overview)
 
-이 레포지토리는 게임 AI 핵심 알고리즘을 Unity 6에서 직접 구현하는 13개 실습으로 구성됩니다.
+이 레포지토리는 게임 AI 핵심 알고리즘을 Unity 6에서 직접 구현하는 12개 실습으로 구성됩니다.
 각 Lab은 독립적으로 실행 가능하며, 교재의 C# 예제를 Unity 6 API로 현대화하였습니다.
 
 ---
 
 ## 커리큘럼 (Curriculum)
 
-| Lab | 주제 | 교재 참고 | 핵심 개념 |
-|-----|------|----------|-----------|
-| [Lab01](Assets/Labs/Lab01_BasicAgent) | 기본 에이전트와 FSM | Chapter 2 SimpleFSM | `IState`, `StateMachine`, `MonoBehaviour` |
-| [Lab02](Assets/Labs/Lab02_PatrolFSM) | 순찰 NPC FSM | Chapter 2 AdvancedFSM | 다중 상태, 전환 조건, Gizmos |
-| [Lab03](Assets/Labs/Lab03_RaycastSensor) | 레이캐스트 센서 | Chapter 4 Sensors | `Physics.Raycast`, FOV, LayerMask |
-| [Lab04](Assets/Labs/Lab04_Boids) | Boids 군집 알고리즘 | Chapter 5 Flocking | 분리·정렬·결합, Reynolds Rules |
-| [Lab05](Assets/Labs/Lab05_SteeringBehaviors) | 조종 행동 | Chapter 5 Steering | Seek, Flee, Wander, Arrive |
-| [Lab06](Assets/Labs/Lab06_AStar) | A* 경로탐색 | Chapter 7 A* | `f=g+h`, OpenList, 역추적 |
-| [Lab07](Assets/Labs/Lab07_NavMesh) | NavMesh 내비게이션 | Chapter 8 NavMesh | `NavMeshAgent`, `NavMeshSurface` |
-| [Lab08](Assets/Labs/Lab08_BehaviorTree) | 행동 트리 | Chapter 9 BT | Sequence, Selector, Leaf |
-| [Lab09](Assets/Labs/Lab09_GOAP) | GOAP | — | WorldState, Action, Planner |
-| [Lab10](Assets/Labs/Lab10_QLearning) | Q-러닝 | — | QTable, ε-greedy, Bellman |
-| [Lab11](Assets/Labs/Lab11_MLAgents) | ML-Agents | Chapter 11 ML | PPO, Observation, Reward |
-| [Lab12](Assets/Labs/Lab12_PerlinNoise) | 펄린 노이즈 PCG | Chapter 10 PCG | 옥타브, 지형 생성 |
-| [Lab13](Assets/Labs/Lab13_CellularAutomata) | 세포 오토마타 | Chapter 10 Cave | Birth/Survival, 동굴 생성 |
+| Lab | 주제 | 교재 참고 | 핵심 개념 | 주차 |
+|-----|------|----------|-----------|------|
+| [Lab01](Assets/Labs/Lab01_BasicAgent) | 기본 에이전트와 FSM | Chapter 2 SimpleFSM | `IState`, `StateMachine`, `MonoBehaviour` | 2주 |
+| [Lab02](Assets/Labs/Lab02_PatrolFSM) | 순찰 NPC FSM | Chapter 2 AdvancedFSM | 다중 상태, 전환 조건, Gizmos | 3주 |
+| [Lab03](Assets/Labs/Lab03_BehaviorTree) | 행동 트리 | Chapter 4 BT | Sequence, Selector, Leaf | 4주 |
+| [Lab04](Assets/Labs/Lab04_UtilityAI) | 유틸리티 AI | Chapter 5 Utility | 점수 기반 의사결정, Response Curve | 5주 |
+| [Lab05](Assets/Labs/Lab05_RandomProbability) | 랜덤 / 확률 | Chapter 6 Probability | Weighted Random, Seed, Noise | 6주 |
+| [Lab06](Assets/Labs/Lab06_RaycastSensor) | 레이캐스트 센서 | Chapter 7 Sensors | `Physics.Raycast`, FOV, LayerMask | 7주 |
+| [Lab07](Assets/Labs/Lab07_Boids) | Boids 군집 알고리즘 | Chapter 8 Flocking | 분리·정렬·결합, Reynolds Rules | 9주 |
+| [Lab08](Assets/Labs/Lab08_SteeringBehaviors) | 조종 행동 | Chapter 9 Steering | Seek, Flee, Wander, Arrive | 10주 |
+| [Lab09](Assets/Labs/Lab09_AStar) | A* 경로탐색 | Chapter 10 A* | `f=g+h`, OpenList, 역추적 | 11주 |
+| [Lab10](Assets/Labs/Lab10_NavMesh) | NavMesh 내비게이션 | Chapter 11 NavMesh | `NavMeshAgent`, `NavMeshSurface` | 12주 |
+| [Lab11](Assets/Labs/Lab11_MLAgents) | ML-Agents | Chapter 12 ML | PPO, Observation, Reward | 13주 |
+| [Lab12](Assets/Labs/Lab12_GenerativeAI) | 생성형 AI / LLM NPC | Chapter 13 GenAI | LLM API, Prompt Engineering, NPC 대화 | 14주 |
 
 ---
 
