@@ -4,7 +4,6 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Player
   - Enemy
   - Waypoint
   - Ground
@@ -45,3 +44,5 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+    userAdded: 0
+
