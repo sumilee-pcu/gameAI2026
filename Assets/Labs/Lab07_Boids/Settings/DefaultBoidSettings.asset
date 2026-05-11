@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76f4aeb590466c94794a59d875f80586, type: 3}
+  m_Name: DefaultBoidSettings
+  m_EditorClassIdentifier: Assembly-CSharp::BoidSettings
+  numBoids: 100
+  spawnRadius: 20
+  minSpeed: 1
+  maxSpeed: 5
+  perceptionRadius: 3
+  avoidanceRadius: 1
+  alignWeight: 1
+  cohesionWeight: 1
+  separationWeight: 1.5
+  boundsRadius: 20
+  boundsWeight: 1
+  targetWeight: 1
