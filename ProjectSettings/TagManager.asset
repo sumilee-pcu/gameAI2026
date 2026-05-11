@@ -44,5 +44,5 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+    hidden: 0
     userAdded: 0
-
