@@ -1,6 +1,6 @@
 # Lab07 — Boids 군집 알고리즘
 
-> **교재 참고:** Chapter 5 FlockingReynold | **Unity 6 업데이트 버전**
+> **교재 참고:** Chapter 8 Flocking | **Unity 6 업데이트 버전**
 
 ---
 
@@ -24,6 +24,14 @@
 ---
 
 ## 씬 설정 방법
+
+### 자동 세팅 (권장)
+
+Unity 메뉴에서 **`GameAI → Lab07 Boids → Setup Scene`** 한 번 클릭하면
+씬·프리팹·`BoidSettings` 에셋이 자동 생성·연결되고 `Lab07_Boids.unity`로 저장됩니다.
+바로 Play 버튼을 눌러 군집 이동을 확인할 수 있습니다.
+
+### 수동 세팅 (학습용 — 원리 이해 목적)
 
 1. **BoidManager** Empty GameObject 생성
    - `BoidManager.cs` 추가
