@@ -1,6 +1,6 @@
 # Lab12 — 생성형 AI / LLM NPC (Generative AI / LLM NPC)
 
-> **교재 참고:** Chapter 13 | **Unity 6 + Claude API / OpenAI API**
+> **교재 참고:** Chapter 13 Generative AI / LLM NPC | **Unity 6 + Claude API / OpenAI API**
 
 ---
 

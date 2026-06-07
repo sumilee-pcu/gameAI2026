@@ -1,6 +1,6 @@
 # Lab05 — 랜덤 / 확률 (Random / Probability)
 
-> **교재 참고:** Chapter 6 | **Unity 6**
+> **교재 참고:** Chapter 6 Random/Probability | **Unity 6**
 
 ---
 

@@ -1,6 +1,6 @@
 # Lab13 — 세포 오토마타 (Cellular Automata)
 
-> **교재 참고:** Chapter 10 CaveGenerator.cs | **Unity 6 업데이트**
+> **교재 참고:** 교재 외 보충(절차적 생성) — 최종 교재 미수록 | **Unity 6 업데이트**
 
 ---
 

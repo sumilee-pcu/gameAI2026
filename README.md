@@ -3,14 +3,15 @@
 > **배재대학교** 게임공학과 · 2026-1학기
 > 담당교수: 이수미 (sumilee@pcu.ac.kr)
 > 엔진: **Unity 6.3 LTS (6000.3.10f1)**
-> 참고교재: *Unity Artificial Intelligence Programming, 5th Edition* (Davide Aversa, Packt)
+> 교재: **『게임 인공지능』** (이수미) — 본 저장소는 교재 실습 워크북
+> 코드 참고: *Unity Artificial Intelligence Programming, 5th Edition* (Davide Aversa, Packt)
 
 ---
 
 ## 개요 (Overview)
 
 이 레포지토리는 게임 AI 핵심 알고리즘을 Unity 6에서 직접 구현하는 12개 실습으로 구성됩니다.
-각 Lab은 독립적으로 실행 가능하며, 교재의 C# 예제를 Unity 6 API로 현대화하였습니다.
+각 Lab은 독립적으로 실행 가능하며, 참고서적(Aversa)의 C# 예제를 Unity 6 API로 현대화하였습니다.
 
 ---
 
@@ -18,8 +19,8 @@
 
 | Lab | 주제 | 교재 참고 | 핵심 개념 | 주차 |
 |-----|------|----------|-----------|------|
-| [Lab01](Assets/Labs/Lab01_BasicAgent) | 기본 에이전트와 FSM | Chapter 2 SimpleFSM | `IState`, `StateMachine`, `MonoBehaviour` | 2주 |
-| [Lab02](Assets/Labs/Lab02_PatrolFSM) | 순찰 NPC FSM | Chapter 2 AdvancedFSM | 다중 상태, 전환 조건, Gizmos | 3주 |
+| [Lab01](Assets/Labs/Lab01_BasicAgent) | 기본 에이전트와 FSM | Chapter 2 Agent · 3 FSM | `IState`, `StateMachine`, `MonoBehaviour` | 2주 |
+| [Lab02](Assets/Labs/Lab02_PatrolFSM) | 순찰 NPC FSM | Chapter 3 FSM | 다중 상태, 전환 조건, Gizmos | 3주 |
 | [Lab03](Assets/Labs/Lab03_BehaviorTree) | 행동 트리 | Chapter 4 BT | Sequence, Selector, Leaf | 4주 |
 | [Lab04](Assets/Labs/Lab04_UtilityAI) | 유틸리티 AI | Chapter 5 Utility | 점수 기반 의사결정, Response Curve | 5주 |
 | [Lab05](Assets/Labs/Lab05_RandomProbability) | 랜덤 / 확률 | Chapter 6 Probability | Weighted Random, Seed, Noise | 6주 |

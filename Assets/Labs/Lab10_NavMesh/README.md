@@ -1,6 +1,6 @@
 # Lab10 — NavMesh 내비게이션
 
-> **교재 참고:** Chapter 8 | **Unity 6 AI Navigation 패키지 (com.unity.ai.navigation 2.0)**
+> **교재 참고:** Chapter 11 NavMesh | **Unity 6 AI Navigation 패키지 (com.unity.ai.navigation 2.0)**
 
 ---
 

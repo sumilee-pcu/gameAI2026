@@ -1,6 +1,6 @@
 # Lab06 — 레이캐스트 센서
 
-> **교재 참고:** Chapter 4 Sensors | **Unity 6 업데이트 버전**
+> **교재 참고:** Chapter 7 Sensor | **Unity 6 업데이트 버전**
 
 ---
 

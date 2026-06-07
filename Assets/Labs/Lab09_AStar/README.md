@@ -1,6 +1,6 @@
 # Lab09 — A* 경로탐색
 
-> **교재 참고:** Chapter 7 A* | **Unity 6 업데이트 버전**
+> **교재 참고:** Chapter 10 A* Pathfinding | **Unity 6 업데이트 버전**
 
 ---
 

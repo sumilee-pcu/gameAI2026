@@ -1,6 +1,6 @@
 # Lab04 — 유틸리티 AI (Utility AI)
 
-> **교재 참고:** Chapter 5 | **Unity 6**
+> **교재 참고:** Chapter 5 Utility AI | **Unity 6**
 
 ---
 

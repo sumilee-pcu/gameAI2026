@@ -1,6 +1,6 @@
 # Lab02 — 순찰 NPC FSM
 
-> **교재 참고:** Chapter 2 AdvancedFSM | **Unity 6 업데이트 버전**
+> **교재 참고:** Chapter 3 유한 상태 기계(FSM) — 실전형 FSM(Patrol·Chase·Attack) | **Unity 6 업데이트 버전**
 
 ---
 

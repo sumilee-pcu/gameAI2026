@@ -1,6 +1,6 @@
 # Lab11 — ML-Agents 강화학습
 
-> **교재 참고:** Chapter 11 | **ML-Agents 3.0 + Unity 6**
+> **교재 참고:** Chapter 12 Machine Learning(ML-Agents) | **ML-Agents 3.0 + Unity 6**
 
 ---
 

@@ -1,6 +1,6 @@
 # Lab08 — 조종 행동 (Steering Behaviors)
 
-> **교재 참고:** Chapter 5 (Craig Reynolds Steering Behaviors) | **Unity 6 업데이트 버전**
+> **교재 참고:** Chapter 9 Steering (Craig Reynolds Steering Behaviors) | **Unity 6 업데이트 버전**
 
 ---
 

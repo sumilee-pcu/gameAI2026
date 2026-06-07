@@ -1,6 +1,6 @@
 # Lab01 — 기본 에이전트와 FSM
 
-> **교재 참고:** Chapter 2 SimpleFSM | **Unity 6 업데이트 버전**
+> **교재 참고:** Chapter 2 Agent/PEAS · Chapter 3 유한 상태 기계(FSM) | **Unity 6 업데이트 버전**
 
 ---
 

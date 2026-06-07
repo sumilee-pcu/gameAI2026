@@ -1,6 +1,6 @@
 # Lab12 — 펄린 노이즈 PCG
 
-> **교재 참고:** Chapter 10 PerlinTexture.cs, CaveGenerator.cs | **Unity 6**
+> **교재 참고:** 교재 외 보충(절차적 생성) — 최종 교재 미수록 | **Unity 6**
 
 ---
 

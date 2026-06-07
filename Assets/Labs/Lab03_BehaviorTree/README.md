@@ -1,6 +1,6 @@
 # Lab03 — 행동 트리 (Behavior Tree)
 
-> **교재 참고:** Chapter 9 | **커스텀 BT 프레임워크, Unity 6**
+> **교재 참고:** Chapter 4 Behavior Tree | **커스텀 BT 프레임워크, Unity 6**
 
 ---
 
