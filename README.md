@@ -111,8 +111,20 @@ MIT License © 2026 이수미, 배재대학교
 
 ---
 
+## 에셋 출처 / 크레딧 (Asset Credits)
+
+| 에셋 | 작성자 | 출처 | 라이선스 |
+|------|--------|------|----------|
+| Female Character Sprite for Visual Novel (13장 LLM NPC 데모) | Sutemo | https://sutemo.itch.io/female-character | 개인·상업 사용 허용 · 크레딧 권장 · **단독 재판매 금지** |
+
+> ⚠️ 라이선스상 원본 스프라이트(PSD)는 본 저장소에 재배포하지 않습니다. 사용 시 위 링크에서 직접 내려받으세요.
+> 13장 LLM NPC 프로젝트(별도 저장소): [sumilee-pcu/LLM_NPC](https://github.com/sumilee-pcu/LLM_NPC) — `CREDITS.md` 참조
+
+---
+
 ## 참고문헌 (References)
 
 - Aversa, D. (2023). *Unity Artificial Intelligence Programming, 5th Edition*. Packt Publishing.
 - Craig Reynolds. (1987). Flocks, herds and schools: A distributed behavioral model. *SIGGRAPH '87*.
 - Russell, S., & Norvig, P. (2020). *Artificial Intelligence: A Modern Approach, 4th Ed.* Pearson.
+- Sutemo. *Female Character Sprite for Visual Novel* [디지털 에셋]. itch.io. https://sutemo.itch.io/female-character (개인·상업 사용 허용)
