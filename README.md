@@ -30,7 +30,20 @@
 | [Lab09](Assets/Labs/Lab09_AStar) | A* 경로탐색 | Chapter 10 A* | `f=g+h`, OpenList, 역추적 | 11주 |
 | [Lab10](Assets/Labs/Lab10_NavMesh) | NavMesh 내비게이션 | Chapter 11 NavMesh | `NavMeshAgent`, `NavMeshSurface` | 12주 |
 | [Lab11](Assets/Labs/Lab11_MLAgents) | ML-Agents | Chapter 12 ML | PPO, Observation, Reward | 13주 |
-| [Lab12](Assets/Labs/Lab12_GenerativeAI) | 생성형 AI / LLM NPC | Chapter 13 GenAI | LLM API, Prompt Engineering, NPC 대화 | 14주 |
+| [Lab13](Assets/Labs/Lab13_GenerativeAI) | 생성형 AI / LLM NPC | Chapter 13 GenAI | LLM API, Prompt Engineering, NPC 대화 | 14주 |
+
+---
+
+## 심화 실습 저장소 (Advanced Standalone Projects)
+
+메인 저장소 외에, 일부 장은 챕터별 단독 실습 프로젝트를 별도 GitHub 저장소로 제공합니다.
+
+| 장 | 주제 | 저장소 | 설명 |
+|----|------|--------|------|
+| 10장 | A* | [sumilee-pcu/Astar_Rider](https://github.com/sumilee-pcu/Astar_Rider) | 공공데이터 식당 위치를 그리드에 올려 A*/Dijkstra로 배달 라이더를 자율주행시키는 **배달왕 2D** |
+| 11장 | NavMesh | [sumilee-pcu/Astar_Rider_3D](https://github.com/sumilee-pcu/Astar_Rider_3D) | Unity NavMesh로 배달 트럭을 자율주행시키는 **3D** (도시 자동 생성·런타임 베이킹) |
+| 12장 | ML-Agents | [sumilee-pcu/MLagent_2026](https://github.com/sumilee-pcu/MLagent_2026) | RollerAgent 강화학습(PPO) 단독 학습 환경 (`config/roller.yaml`) |
+| 13장 | LLM NPC | [sumilee-pcu/LLM_NPC](https://github.com/sumilee-pcu/LLM_NPC) | 페르소나·호감도·표정을 갖춘 대화형 NPC 시뮬레이터 (클라우드/로컬 LLM, JSON 구조화 출력) |
 
 ---
 
